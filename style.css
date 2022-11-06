@@ -54,6 +54,21 @@ height: 250px;
 max-height: 100%;
 max-width: 100%;
 }
+.modele:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+} 
+
+.stan {
+    
+    height: 250px;
+    max-height: 100%;
+    max-width: 100%;
+}
+.stan:hover {
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;
+}
 /* partie detail de carte prix/nom de la chaussure/bouton whatshapp */
 .detail {
     display: flex;
@@ -71,6 +86,9 @@ max-width: 100%;
 .detail h1 {
     color: #eb2294;
 }
+.detail h1:hover {
+    transform: scale(1.05);
+}
 
 .sneakers {
     color: rgb(105, 99, 99);
@@ -83,8 +101,12 @@ max-width: 100%;
 .logo {
     width: 200px;
 }
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
 
-@media screen  and (max-width: 750px){
+@media screen  and (max-width: 749px){
     .carte {
         width: 94%;
         height: 560px;
@@ -92,9 +114,20 @@ max-width: 100%;
     .modele {
         height: 250px;
     }
+    .stan {
+        height: 250px;
+    }
     .detail {
         font-size: 16px;
         width: 250px;
+    }
+    .modele:hover {
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+    } 
+    .stan:hover {
+        transform: scale(1.2);
+        transition: all 0.3s ease-in-out;
     }
 }
 
